@@ -64,6 +64,8 @@ Key code snippet for the layout shift:
     }
 }
 
+```
+
 I also practiced styling form inputs to match a specific design system, removing default browser styles and applying custom borders and shadows.
 
 Author

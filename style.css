@@ -82,6 +82,36 @@ input:focus {
     border-color: var( --dark-blue);
 }
 
+.error-icon,
+.error-message {
+    display: none;
+}
+
+.error-message {
+    color: var(--red);
+    font-size: 0.7rem;
+    font-style: italic;
+    text-align: right;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.error-icon {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.input-group.error input {
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+
+.input-group.error .error-icon,
+.input-group.error .error-message {
+    display: block;
+}
+
 button {
     width: 100%;
     background-color: var(--green);
